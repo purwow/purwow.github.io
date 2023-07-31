@@ -1,2 +1,2 @@
-onClick='Sebelumnya terima kasih atas perhatiannya, dan saling mendoakan agar belajar saya ini lancar, dan manfaat ya bpk/ibu, ..aamiin yaa Raab :) saya hanya bisa berterima kasih banyak udah diberi kesempatan untuk bergabung (~purWow~)'
+onClick='Sebelumnya terima kasih atas perhatiannya, bpk/ibu sudah mengunjungi laman profil ini :) trima kasih dan selamat bergabung (~purWow~)'
 prompt(onClick);

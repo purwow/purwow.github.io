@@ -1,0 +1,2 @@
+onClick='Sebelumnya terima kasih atas perhatiannya, dan saling mendoakan agar belajar saya ini lancar, dan manfaat ya bpk/ibu, ..aamiin yaa Raab :) saya hanya bisa berterima kasih banyak udah diberi kesempatan untuk bergabung (~purWow~)'
+prompt(onClick);

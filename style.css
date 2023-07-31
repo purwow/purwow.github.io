@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: black;
+    display: inline;
+
+
+}
+
+p {
+    font-size: 17px;
+    font-weight: 100;
+    color: aliceblue;
+    line-height: 1.5em;
+}
+
+header{
+    display: inline;
+
+}
+
+.jumbotron{
+    width: 100%;
+    height: 720px;
+    background-image:url(image/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ 
+
+
+.jumbotron img{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.jd_tag{
+    font-size: 80px;
+    font-style: italic;
+    line-height: 53px;
+    text-shadow: 1px 2px black;
+}
+
+.jd_tag span{
+    font-size: 50px;
+    color: #FBE366;
+}
+
+.taiching{
+    margin-top: 74px;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 220px 0;
+}
+
+.judul{
+    flex-grow: 1;
+}
+
+.judul img{
+    float: right;
+    padding-right: 150px;
+}
+
+.sosial{
+    flex-grow: 1;
+}
+
+.sosial ul {
+    list-style: none;
+    padding-top: 227px;
+ 
+}
+
+.sosial ul li {
+    display: inline;
+
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    height: 90px;
+    padding-top: 5px;
+    z-index: 99;
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 36px;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 60px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid #FBE366;
+}
+
+.aktif{
+    border-bottom: 3px solid #FBE366;
+
+}
+
+
+#content{
+    width: 65%;
+    margin-top: 25px;
+    float: left;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+
+}
+
+h1{
+    margin-bottom: 20px;
+    color: antiquewhite;
+    font-family: 'Inter', sans-serif;
+}
+
+article{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.testimonial{
+    position: relative;
+
+}
+
+.testimonial ul {
+    width: 305px;
+    display: flex;
+    position: absolute;
+    height: 145px;
+    list-style: none;
+
+}
+
+.testimonial ul li{
+    padding: 15px;
+}
+
+
+.testimonial ul li p{
+    font-size: 14px;
+    color: black;
+}
+
+.btn-test{
+    margin-top: 10px;
+    float: right;
+}
+
+.project ul{
+    width: 700px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project ul li img{
+    width: 340px;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.caption{
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+table{
+    width: 100%;
+    color: #ddd;
+    opacity: 0.7;
+   
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+input[type=text] {
+    border: none;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 5px 0;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: #979797;
+  }
+
+
+  button{
+    width: 30%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FBE366;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+  }
+
+  aside{
+      float: right;
+      width: 28%;
+      margin-top: 25px;
+      border-left: solid 1px #979797;
+      padding-left: 20px;
+  }
+
+  .prof {
+      border-radius: 50px;
+      width: 50%;
+  }
+
+  .ket-foto{
+    font-size: 13px;
+    font-weight: 100;
+    color: #979797;
+    letter-spacing: 1px;
+}
+ul{
+    list-style: none;
+}
+.log-log{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.log-log img{
+    width: 60px;
+    margin: 8px 10px;
+}
+
+.ui_bar{
+    width: 250px;
+    height: 20px;
+    display: block;
+    background-color: #FBE366;
+    border-radius: 30px;
+    text-align: right;
+}
+.ui_log{
+    width: 280px;
+    height: 20px;
+    display: block;
+    background-color: #FBE366;
+    border-radius: 30px;
+    text-align: right;
+}
+.ui_des{
+    width: 270px;
+    height: 20px;
+    display: block;
+    background-color: #FBE366;
+    border-radius: 30px;
+    text-align: right;
+}
+.ui_gra{
+    width: 135px;
+    height: 20px;
+    display: block;
+    background-color: #FBE366;
+    border-radius: 30px;
+    text-align: right;
+}
+.ui_pho{
+    width: 135px;
+    height: 20px;
+    display: block;
+    background-color: #FBE366;
+    border-radius: 30px;
+    text-align: right;
+}
+
+
+.bar{
+    font-size: 15px;
+    padding-right: 10px;
+    color: #242121;
+    font-weight: 100;
+}
+
+.graf_pot{
+    margin-top: 20px;
+
+}
+
+footer{
+    padding: 40px;
+    background-color: #FBE366;
+    clear: both;
+    margin-top: 30px;
+    width: 100%;
+}
+
+footer p{
+    width: 90%;
+    color: #242121;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;
+}
+footer p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+   
+
+    .jumbotron img{
+        padding: 20px 30px;
+        margin: auto;
+    }
+
+    .container{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 220px 0;
+        flex-wrap: wrap;
+    }
+
+    .jd_tag{
+        font-size: 50px;
+        font-style: italic;
+        line-height: 50px;
+    }
+
+    .jd_tag span{
+        font-size: 32px;
+        color: #FBE366;
+    }
+
+    .jumbotron{
+        background-position: center;
+    }
+
+    .sosial ul{
+        padding: 17px 50px;
+    }
+
+    .sosial ul li img{
+        padding: 0px;
+        opacity: 0.5;
+        width: 25px;
+    }
+    .btn-hot{
+        width: 40%;    
+    }
+
+
+
+    nav ul li{
+        display: block;
+    }
+
+    .taiching{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .judul {
+        margin-top: 74px;
+
+    }
+
+    .judul img{
+        transform: rotate(90deg);
+    }
+
+    img .logo{
+        padding-left: 10px;
+    }
+
+    #content{
+        width: 100%;
+    }
+
+    article img{
+        width: 100%;
+    }
+
+    .btn-test{
+        width: fit-content;
+    }
+
+    nav{
+        background-color: black;
+        height: 180px;
+
+    }
+
+    .sosial ul li {
+        margin-right: 20px;
+    }
+
+    .project ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    table{
+        overflow-x:auto;
+        width: 100%;
+        font-size: 12px;
+
+    }
+
+    button{
+        width: 60%;
+    }
+
+    aside{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+   
+   
+  
+
+}
